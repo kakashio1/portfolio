@@ -1,0 +1,104 @@
+ *{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+ }
+ 
+ body{
+    background-color: rgb(27, 27, 27);
+ }
+
+ .header{
+    height: 70px;
+   
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+
+ }
+
+ .icon img{
+
+    height: 80px;
+ }
+
+ .about{
+   
+    width: 500px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content:space-evenly;
+    word-spacing: 30px;
+    cursor: pointer;
+    
+    
+
+ }
+ .about:hover{
+   color:rgb(252, 146, 86) ;
+ }
+
+ .hero{
+    
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ;
+ }
+
+ .info{
+    color: white;
+    
+ }
+h1{
+    font-size: 50px;
+    color: white;
+}
+ h1 span{
+    color: rgb(252, 146, 86);
+ }
+p{
+   font-size: 20px;
+}
+ button{
+    font-size: 20px;
+    padding: 5px;
+   cursor: pointer;
+    
+       border-radius: 5px;
+ }
+
+ .button:hover{
+   background-color: rgb(252, 146, 86);
+ }
+
+ label{
+         word-spacing: 20px;  
+ }
+
+ label img{
+   height: 50px;
+   cursor: pointer;
+ }
+
+ .s{
+   height: 40px;
+ }
+
+.logo{
+    
+}
+ .logo img{
+    height:600px;
+    filter: drop-shadow(5px 5px 20px rgb(252, 146, 86));
+    
+ }
+
+ .logo:hover .pic{
+   left:50px;
+ }
+
+
+
