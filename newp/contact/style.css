@@ -1,0 +1,92 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: black;
+    align-items: center;
+   
+}
+.header{
+    height: 70px;
+   
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+
+ }
+
+ .icon img{
+
+    height: 80px;
+ }
+
+ .about{
+   
+    width: 500px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content:space-evenly;
+    word-spacing: 30px;
+    cursor: pointer;
+    
+    
+
+ }
+ .about:hover{
+   color:rgb(252, 146, 86) ;
+   font-size: 22px;
+ }
+
+
+ .hero{
+margin-top: 100px;
+height: 400px;
+margin-left: 30%;
+color:rgb(255, 255, 255);
+
+ }
+
+ h1{
+    font-size: 40px;
+    margin-left: 130px;
+ }
+ i{
+   color: orange;
+ }
+
+ h2{
+   margin-left: 140px;
+ }
+
+ .logo{
+   
+height: 150px;
+background-color: rgb(0, 0, 0);
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+margin-right: 50%;
+
+ }
+
+ .logo img{
+   height: 70px;
+   margin-left: 70px;
+   cursor: pointer;
+   }
+
+   .logo img:hover{
+    height:80px ;
+   border: 2px solid orange;
+   }
+
+   a{
+    color:rgb(252, 146, 86) ;
+   }
